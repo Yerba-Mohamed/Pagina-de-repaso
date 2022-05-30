@@ -1,0 +1,28 @@
+.nav-enlace{
+    display: inline-block;
+    background-color: pink;
+    color: rgb(18, 18, 19);
+    padding: 10px 80px;
+    text-decoration: none;
+    font-size: x-large;
+    border-radius: 40%;
+}
+
+.nav-enlace:hover{
+    background: yellow;
+}
+nav{
+    background-color: blueviolet;
+    padding: 10px ;
+}
+
+.uno{
+    text-align: center;
+}
+.dos{
+    text-align: center;
+    border-radius: 40%;
+}
+.tres{
+    text-align: center;
+}

@@ -1,0 +1,61 @@
+body{
+    width: 1200px;
+    height: 900px;
+    background-image: url(arena.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0,5;
+}
+.nav-enlace{
+    display: inline-block;
+    background-color: pink;
+    color: rgb(18, 18, 19);
+    padding: 10px 80px;
+    text-decoration: none;
+    font-size: x-large;
+    border-radius: 40%;
+}
+
+.nav-enlace:hover{
+    background: yellow;
+}
+nav{
+    background-color: blueviolet;
+    padding: 10px ;
+}
+
+
+
+
+.contacto{
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+    color: black;
+    border-radius: 30%;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+   
+}
+
+ #comentarios{
+    background-color: rgb(131, 120, 122);
+    border-radius: 30%;
+    color: brown;
+} 
+
+.color{
+    background-color: aquamarine;
+    border-radius: 30%;
+   
+    
+}
+.color1{
+    background-color: pink;
+    border-radius: 40%;
+    text-align: center;
+    padding: 1rem;
+  
+    
+}

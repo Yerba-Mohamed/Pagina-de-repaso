@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contacto.css">
+    <title>contacto</title>
+</head>
+<body>
+   
+    <div class="container">
+        <nav>
+            <a href="bicicletas.html" class = "nav-enlace">Bicicletas</a>
+            <a href="motos.html" class = "nav-enlace">Motos</a>
+            <a href="coches.html" class = "nav-enlace">Coches</a>
+            <a href="contacto.html" class = "nav-enlace">Contacto</a>
+   
+   
+        </nav>
+        <h1>Contacto</h1>
+        <div class="contacto">
+          
+            <fieldset class="color">
+                <legend style="text-align:center; background-color: rgb(202, 202, 211);  " >Inscripción</legend>
+                <form  class="color1" action="coches.html" method="get" style="color: rgb(15, 15, 15)"><br>
+                <label for="name" >Nombre</label>
+                <input type="text" id="Nombre"  placeholder="Nombre"><br>
+                <label for="name" >Apellidos</label>
+                <input type="text" id="Apellidos"placeholder="Apellidos"><br>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="email" required><br>
+                
+                <label for="Pass">Pasword</label>
+                <input type="text" id="Pass" placeholder="pasword" required><br>
+                
+                <label for="edad" >  Edad</label>
+                <input type="number" id="edad"placeholder="edad"   required><br>
+                <p>Escoge una fecha</p>
+                <label for="date">Fecha</label>
+                <input type="date" id="Fecha"  >
+                  
+                <br>
+                <p>Pon su comentario</p>
+                <textarea  name="comentario" id="comentarios"placeholder="Comentarios" cols="30" rows="10" ></textarea><br>
+                <p>Estas de acuerdo?</p>
+                <input type="radio" id="Si" name="Estas de acuerdo?" value="Si">
+                  <label for="Si">Si</label><br>
+                <input type="radio" id="No" name="Estas de acuerdo?" value="No">
+                  <label for="No">No</label><br>
+                <br>
+                <label for="escoger">Escoge su cafe</label>
+                <select name="Cafe">
+                    <option value="Cafe">Cafe solo</option>
+                    <option value="Cafe con leche">Cafe con leche</option>
+                    <option value="Capuchino">Capuchino</option>
+
+                  
+                   
+                </select>
+                <br><br>
+
+
+
+                <button style="color: rgb(7, 7, 7); background-color: brown;">Enviar</button>
+                </form>
+            </fieldset>
+
+        </div>
+    </div>
+    
+</body>
+</html>
